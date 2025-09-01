@@ -52,9 +52,10 @@ Habit Tracker is a Flutter app that helps users build and maintain daily habits 
   ![WhatsApp Image 2025-09-01 at 10 08 28 PM-12](https://github.com/user-attachments/assets/34ae059c-7510-4cf4-88fb-75bbd86b6200)
   ![WhatsApp Image 2025-09-01 at 10 08 28 PM-10](https://github.com/user-attachments/assets/20dceaa1-76e8-4805-a9dc-3dfabe091a8b)
  ![WhatsApp Image 2025-09-01 at 10 08 28 PM-7](https://github.com/user-attachments/assets/d62f76d2-ecd8-48fb-8aaf-a7cbb264395a)
- ![WhatsApp Image 2025-09-01 at 10 08 28 PM-11](https://github.com/user-attachments/assets/56327589-be94-4cdf-abc5-e9eb795e3ee9)
- ![WhatsApp Image 2025-09-01 at 10 08 28 PM-6](https://github.com/user-attachments/assets/0db2965b-970d-41ea-acb9-e159bdd980f9)
  ![WhatsApp Image 2025-09-01 at 10 08 28 PM-9](https://github.com/user-attachments/assets/0cf527fe-0246-4c97-8431-7fc8e168d191)
+ ![WhatsApp Image 2025-09-01 at 10 08 28 PM-6](https://github.com/user-attachments/assets/0db2965b-970d-41ea-acb9-e159bdd980f9)
+![WhatsApp Image 2025-09-01 at 10 08 28 PM-11](https://github.com/user-attachments/assets/56327589-be94-4cdf-abc5-e9eb795e3ee9)
+
 
 
 
