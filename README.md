@@ -27,7 +27,7 @@ Habit Tracker is a Flutter app that helps users build and maintain daily habits 
 - Dynamic updates as habits are completed
 
 ### Motivational Quotes
-- Fetch from public APIs (Quotable, ZenQuotes)
+- Fetch from public APIs (Quotable)
 - Copy and favorite quotes
 - Favorites stored in Firestore
 
@@ -55,6 +55,7 @@ Habit Tracker is a Flutter app that helps users build and maintain daily habits 
  ![WhatsApp Image 2025-09-01 at 10 08 28 PM-9](https://github.com/user-attachments/assets/0cf527fe-0246-4c97-8431-7fc8e168d191)
  ![WhatsApp Image 2025-09-01 at 10 08 28 PM-6](https://github.com/user-attachments/assets/0db2965b-970d-41ea-acb9-e159bdd980f9)
 ![WhatsApp Image 2025-09-01 at 10 08 28 PM-11](https://github.com/user-attachments/assets/56327589-be94-4cdf-abc5-e9eb795e3ee9)
+
 
 
 
