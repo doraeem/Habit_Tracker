@@ -12,7 +12,8 @@ class HabitDetailScreen extends StatefulWidget {
   State<HabitDetailScreen> createState() => _HabitDetailScreenState();
 }
 
-class _HabitDetailScreenState extends State<HabitDetailScreen> with SingleTickerProviderStateMixin {
+class _HabitDetailScreenState extends State<HabitDetailScreen>
+    with SingleTickerProviderStateMixin {
   late TabController _tabController;
 
   @override
@@ -29,42 +30,58 @@ class _HabitDetailScreenState extends State<HabitDetailScreen> with SingleTicker
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+
     return Scaffold(
-      backgroundColor: const Color(0xFFF7F9FC),
+      backgroundColor: theme.colorScheme.surface,
       appBar: AppBar(
-        backgroundColor: Colors.white,
-        elevation: 2,
+        elevation: 4,
+        flexibleSpace: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: [
+                theme.colorScheme.primary,
+                theme.colorScheme.primary.withOpacity(0.8),
+              ],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
+          ),
+        ),
         title: Text(
           widget.habit.title,
           style: const TextStyle(
             fontWeight: FontWeight.bold,
-            color: Colors.black87,
+            color: Colors.white,
           ),
         ),
-        iconTheme: const IconThemeData(color: Colors.black87),
+        iconTheme: const IconThemeData(color: Colors.white),
         bottom: PreferredSize(
-          preferredSize: const Size.fromHeight(60),
+          preferredSize: const Size.fromHeight(70),
           child: Container(
-            margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+            margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
             decoration: BoxDecoration(
-              color: Colors.grey[100],
+              color: Colors.white.withOpacity(0.15),
               borderRadius: BorderRadius.circular(30),
             ),
             child: TabBar(
               controller: _tabController,
               indicator: BoxDecoration(
-                color: const Color(0xFF4CAF50),
+                gradient: LinearGradient(
+                  colors: [theme.colorScheme.secondary, theme.colorScheme.primary],
+                ),
                 borderRadius: BorderRadius.circular(30),
               ),
               labelColor: Colors.white,
-              unselectedLabelColor: Colors.black54,
+              unselectedLabelColor: Colors.white70,
+              labelStyle: const TextStyle(fontWeight: FontWeight.bold),
               tabs: const [
                 Tab(
-                  icon: Icon(Icons.calendar_today),
+                  icon: Icon(Icons.calendar_month),
                   text: "Calendar",
                 ),
                 Tab(
-                  icon: Icon(Icons.bar_chart),
+                  icon: Icon(Icons.bar_chart_rounded),
                   text: "Statistics",
                 ),
               ],
@@ -72,12 +89,15 @@ class _HabitDetailScreenState extends State<HabitDetailScreen> with SingleTicker
           ),
         ),
       ),
-      body: TabBarView(
-        controller: _tabController,
-        children: [
-          HabitCalendarTab(habit: widget.habit),
-          HabitStatisticsTab(habit: widget.habit),
-        ],
+      body: AnimatedSwitcher(
+        duration: const Duration(milliseconds: 300),
+        child: TabBarView(
+          controller: _tabController,
+          children: [
+            HabitCalendarTab(habit: widget.habit),
+            HabitStatisticsTab(habit: widget.habit),
+          ],
+        ),
       ),
     );
   }
