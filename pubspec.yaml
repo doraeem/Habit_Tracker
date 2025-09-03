@@ -1,4 +1,4 @@
-name: habithero
+name: Habittracker
 description: Habit tracking app with Firebase + Quotes API
 publish_to: "none"
 version: 1.0.0+1

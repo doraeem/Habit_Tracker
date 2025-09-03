@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
       ],
       child: Consumer2<ThemeProvider, AuthProvider>(
         builder: (context, themeProvider, authProvider, _) {
-          // ✅ Use StreamBuilder to wait for FirebaseAuth initialization
+          //  Use StreamBuilder to wait for FirebaseAuth initialization
           return StreamBuilder(
             stream: authProvider.authStateChanges,
             builder: (context, snapshot) {
@@ -62,7 +62,7 @@ class MyApp extends StatelessWidget {
                     '/register': (context) => const RegisterScreen(),
                     '/home': (context) => const HomeScreen(),
                     '/add_edit_habit': (context) => const AddEditHabitScreen(),
-                    '/categories': (context) => const CategoriesScreen(), // ✅ Test route
+                    '/categories': (context) => const CategoriesScreen(), //  Test route
                   },
                 ),
               );

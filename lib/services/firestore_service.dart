@@ -29,7 +29,7 @@ class FirestoreService {
         .collection('users')
         .doc(userId)
         .collection('habits')
-        .orderBy('createdAt', descending: true) // ✅ newest first
+        .orderBy('createdAt', descending: true) //  newest first
         .snapshots()
         .map((snapshot) =>
         snapshot.docs.map((doc) => HabitModel.fromMap(doc.data(), doc.id)).toList());

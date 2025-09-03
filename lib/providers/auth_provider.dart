@@ -17,7 +17,7 @@ class AuthProvider with ChangeNotifier {
     Map<String, dynamic>? otherDetails,
   }) async {
     try {
-      // ✅ Create User in Firebase Auth
+      //  Create User in Firebase Auth
       UserCredential userCredential = await _auth.createUserWithEmailAndPassword(
         email: email,
         password: password,
@@ -49,10 +49,10 @@ class AuthProvider with ChangeNotifier {
       }
       return "Unknown error: User is null";
     } on FirebaseAuthException catch (e) {
-      debugPrint("❌ FirebaseAuth error: ${e.message}");
+      debugPrint(" FirebaseAuth error: ${e.message}");
       return e.message;
     } catch (e) {
-      debugPrint("❌ Unknown error (register): $e");
+      debugPrint(" Unknown error (register): $e");
       return "An unexpected error occurred: $e";
     }
   }
@@ -67,10 +67,10 @@ class AuthProvider with ChangeNotifier {
       notifyListeners();
       return null; // success
     }  on FirebaseAuthException catch (e) {
-      debugPrint("❌ FirebaseAuth error: ${e.code} - ${e.message}");
+      debugPrint(" FirebaseAuth error: ${e.code} - ${e.message}");
       return e.message ?? e.code;
     } catch (e) {
-      debugPrint("❌ Unknown error (login): $e");
+      debugPrint(" Unknown error (login): $e");
       return "An unexpected error occurred: $e";
     }
   }
