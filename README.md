@@ -49,12 +49,16 @@ Habit Tracker is a Flutter app that helps users build and maintain daily habits 
   ![WhatsApp Image 2025-09-01 at 10 08 28 PM-3](https://github.com/user-attachments/assets/7f8b3145-190a-4675-a21b-467020d31ca2)
   ![WhatsApp Image 2025-09-01 at 10 08 28 PM-13](https://github.com/user-attachments/assets/7a122894-0143-4e8d-975b-5eedb3f465a3)
   ![WhatsApp Image 2025-09-01 at 10 08 28 PM-5](https://github.com/user-attachments/assets/8b557a30-801c-414c-95c1-1e2514d73b81)
+  ![WhatsApp Image 2025-09-02 at 11 37 29 PM](https://github.com/user-attachments/assets/1361ea25-4f84-484f-9f7b-dce6388d7fc4)
+  ![WhatsApp Image 2025-09-02 at 11 37 29 PM-2](https://github.com/user-attachments/assets/aef28492-6fed-4ab2-b5d7-f51c34793176)
+  ![WhatsApp Image 2025-09-02 at 11 37 29 PM-3](https://github.com/user-attachments/assets/2f82f48e-c17f-4ae4-974e-4ad11fc67bc1)
   ![WhatsApp Image 2025-09-01 at 10 08 28 PM-12](https://github.com/user-attachments/assets/34ae059c-7510-4cf4-88fb-75bbd86b6200)
   ![WhatsApp Image 2025-09-01 at 10 08 28 PM-10](https://github.com/user-attachments/assets/20dceaa1-76e8-4805-a9dc-3dfabe091a8b)
  ![WhatsApp Image 2025-09-01 at 10 08 28 PM-7](https://github.com/user-attachments/assets/d62f76d2-ecd8-48fb-8aaf-a7cbb264395a)
  ![WhatsApp Image 2025-09-01 at 10 08 28 PM-9](https://github.com/user-attachments/assets/0cf527fe-0246-4c97-8431-7fc8e168d191)
  ![WhatsApp Image 2025-09-01 at 10 08 28 PM-6](https://github.com/user-attachments/assets/0db2965b-970d-41ea-acb9-e159bdd980f9)
 ![WhatsApp Image 2025-09-01 at 10 08 28 PM-11](https://github.com/user-attachments/assets/56327589-be94-4cdf-abc5-e9eb795e3ee9)
+
 
 
 
